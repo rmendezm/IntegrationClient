@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\jose.lorca\Desktop\Vladimir\WMSTekWS</_PublishTargetUrl>
+    <History>True|2022-12-19T13:45:04.7890845Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AdminApp.dll">
+      <publishTime>12/19/2022 10:32:01</publishTime>
+    </File>
+    <File Include="bin/AdminApp.pdb">
+      <publishTime>12/19/2022 10:32:01</publishTime>
+    </File>
+    <File Include="bin/DataAccess.dll">
+      <publishTime>12/19/2022 10:31:57</publishTime>
+    </File>
+    <File Include="bin/DataAccess.pdb">
+      <publishTime>12/19/2022 10:31:57</publishTime>
+    </File>
+    <File Include="bin/IntegrationClient.dll">
+      <publishTime>12/19/2022 10:45:03</publishTime>
+    </File>
+    <File Include="bin/IntegrationClient.pdb">
+      <publishTime>12/19/2022 10:45:03</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/08/2019 21:56:44</publishTime>
+    </File>
+    <File Include="bin/OperationApp.dll">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/OperationApp.pdb">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/ParameterApp.dll">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/ParameterApp.pdb">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/RuleApp.dll">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/RuleApp.pdb">
+      <publishTime>12/19/2022 10:31:58</publishTime>
+    </File>
+    <File Include="bin/WMSTekFramework.dll">
+      <publishTime>12/19/2022 09:55:15</publishTime>
+    </File>
+    <File Include="bin/WMSTekFramework.pdb">
+      <publishTime>12/19/2022 09:55:15</publishTime>
+    </File>
+    <File Include="bin/WorkflowApp.dll">
+      <publishTime>12/19/2022 10:31:57</publishTime>
+    </File>
+    <File Include="bin/WorkflowApp.pdb">
+      <publishTime>12/19/2022 10:31:57</publishTime>
+    </File>
+    <File Include="Config/constantes.config">
+      <publishTime>05/24/2022 11:41:59</publishTime>
+    </File>
+    <File Include="Config/databaseAdmin.config">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Config/databaseAdminDesign.config">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="Config/db/querys.config">
+      <publishTime>12/19/2022 09:33:03</publishTime>
+    </File>
+    <File Include="Config/db/server.config">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="Config/errorAdmin.config">
+      <publishTime>05/24/2022 11:41:59</publishTime>
+    </File>
+    <File Include="Config/instanceAdmin.config">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Config/interfaz-instances.config">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Config/messageStatusAdmin.config">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Config/readme.txt">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Dtd/database.dtd">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="Dtd/errorAdmin.dtd">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Dtd/instanceAdmin.dtd">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Dtd/messageStatusAdmin.dtd">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/24/2022 11:41:59</publishTime>
+    </File>
+    <File Include="WmsTekLabelCloud.asmx">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="wsBase.asmx">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="wsExport.asmx">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="wsExportIfz.asmx">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="wsExportPtl.asmx">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+    <File Include="wsImport.asmx">
+      <publishTime>05/24/2022 11:41:59</publishTime>
+    </File>
+    <File Include="wsImportIfz.asmx">
+      <publishTime>05/24/2022 11:42:01</publishTime>
+    </File>
+    <File Include="wsImportPtl.asmx">
+      <publishTime>05/24/2022 11:42:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
